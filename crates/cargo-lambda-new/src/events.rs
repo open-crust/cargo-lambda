@@ -1,4 +1,4 @@
-pub(crate) const WELL_KNOWN_EVENTS: [&str; 37] = [
+pub(crate) const WELL_KNOWN_EVENTS: [&str; 38] = [
     "activemq::ActiveMqEvent",
     "autoscaling::AutoScalingEvent",
     "chime_bot::ChimeBotEvent",
@@ -22,6 +22,7 @@ pub(crate) const WELL_KNOWN_EVENTS: [&str; 37] = [
     "dynamodb::Event",
     "ecr_scan::EcrScanEvent",
     "eventbridge::EventBridgeEvent",
+    "eventbridge::EventBridgeEventObj",
     "firehose::KinesisFirehoseEvent",
     "iot_1_click::IoTOneClickDeviceEvent",
     "iot_1_click::IoTOneClickEvent",
